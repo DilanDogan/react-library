@@ -1,0 +1,24 @@
+{
+  "name": "@dilandogan/react-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dilandogan"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build && tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.24",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
